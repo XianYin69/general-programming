@@ -1,1 +1,3 @@
 {"from": "初始化", "to": "tmp沙盒作业+git init+MIT", "why": "红线:未指定目录沙盒作业;每步功能分支"}
+{"from": "需求确认", "to": "创建路径(非修改)", "why": "目标目录不存在->新建;流程镜像Skill_Generator十节点"}
+{"from": "依赖机制", "to": "dependence声明式不内嵌", "why": "红线2:薄技能,能力经file_ops/code-guidelines/pavedpath-code/python/git"}
