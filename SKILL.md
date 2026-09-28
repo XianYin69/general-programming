@@ -19,7 +19,7 @@ metadata:
 3. **返回机制**：审查失败记中断（process_chain.py interrupt），修复后 resume；任一路径完成＝收口返回调度方整合续排。
 4. **惩罚熔断**：重试达 10 次即熔断，强制回退或求助用户。
 5. **垃圾回收**：tmp 收尾后释放到目标 skill 并删除；未指定目录时固定路径沙盒作业。
-6. **薄技能**：本体不内嵌他技能内容，能力经 [dependence/](dependence/dependence.md) 声明。
+6. **薄技能**：本体不内嵌他技能内容，能力经 [dependence/](dependence/dependence.md) 声明；UI/数据库/并发专项经其索引派发。
 
 ## 执行路径
 

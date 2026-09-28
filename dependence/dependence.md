@@ -7,6 +7,9 @@
 file_ops          | skill    | local:skill_manage_system
 code-guidelines   | skill    | local
 pavedpath-code    | skill    | local
+ui-design           | skill | local
+database-management | skill | local
+concurrency-design  | skill | local
 python            | software | system
 git               | software | system
 ```
@@ -18,6 +21,9 @@ git               | software | system
 | file_ops | 联网搜索/抓取（ff_lite.py search/fetch·须 :grant network） | 经验查询 / 浏览器学习 / 知识库构建 |
 | code-guidelines | 命名、注释、复杂度、坏味道准则 | 脚本构建 / 整体审查 |
 | pavedpath-code | 已验证实现路径与脚手架范式 | 大纲构建 / 分支分析 / 脚本构建 |
+| ui-design | UI/视觉/交互/无障碍专项（流程同本体） | 大纲构建 / 分支分析命中 UI 专项时 |
+| database-management | 建模/SQL/迁移/性能/备份专项（流程同本体） | 分支分析命中数据专项时 |
+| concurrency-design | 并发/内存模型/锁与无锁/取消安全专项 | 分支分析命中并发专项时 |
 | python | 脚本运行时与测试执行器 | 脚本构建 / 构建测试 |
 | git | 功能分支→dev→main 版本流 | 每步收尾（见 git 工作流约束） |
 
@@ -26,5 +32,7 @@ git               | software | system
 1. 依赖缺失时**降级不得静默**：记 process_chain interrupt 并向用户报告缺项，禁止伪造能力。
 2. 禁止把依赖技能正文复制进本技能目录（薄技能原则）；只允许引用其名称与调用方式。
 3. 新增/删除依赖须走 update 审批流并记 CHANGELOG。
+4. 专项技能（ui-design / database-management / concurrency-design）只传「意图+参数」，
+   由对方在其目录内独立执行；索引见 [references](../references/references.md)。
 
 - 返回 [SKILL.md](../SKILL.md) · [浏览器学习约束](../resistance/浏览器学习约束/浏览器学习约束.md)
