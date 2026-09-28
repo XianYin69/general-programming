@@ -12,3 +12,9 @@
 - 新增：`scripts/` 16 个英文命名脚本，全部 ≤50 行、语法零错误、lint 零问题。
 - 新增：MIT `LICENSE`（工作区根 + tmp 镜像）。
 - 违规后果：见各约束文件；约束变更须走 [update 审批流](update/update.md)。
+
+## 0.1.1 — 专项技能索引注入
+
+- 新增：dependence 声明 ui-design / database-management / concurrency-design 三个专项薄技能（只引用不内嵌）。
+- 新增：references 增设「专项技能索引」表——各专项知识库入口与派发时机；并发/数据/UI 缺口由按需浏览器学习升级为专项技能承接。
+- 规则：派发只传「意图+参数」，专项技能在其目录内独立执行收口（薄技能规则 4）。
