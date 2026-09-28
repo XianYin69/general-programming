@@ -28,6 +28,10 @@ Wikipedia 不可达，已按知识库构建兜底降级并如实标注，禁止�
 | UI 设计 | ui-design | [references](../../ui-design/references/references.md) | 视觉/交互/无障碍任务 |
 | 数据库管理 | database-management | [references](../../database-management/references/references.md) | 建模/SQL/迁移/备份任务 |
 | 并发设计 | concurrency-design | [references](../../concurrency-design/references/references.md) | 线程/锁/内存模型/异步任务 |
+| Web 设计 | web-design-expert | [knowledge](../../web-design-expert/knowledge/knowledge.md) | Web 界面/前端任务 |
+| Python | python-expert | [知识树](../../python-expert/references/知识树/知识树.md) | Python 脚本与服务任务 |
+| C++ | cpp-expert | [references](../../cpp-expert/references/references.md) | C++ 项目任务 |
+| C | c-expert | [references](../../c-expert/references/references.md) | C 语言与系统底层任务 |
 
 派发方式：只传「意图+参数」，专项技能在其目录内按同流程独立执行并收口返回（薄技能规则 4）。
 

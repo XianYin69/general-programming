@@ -10,6 +10,10 @@ pavedpath-code    | skill    | local
 ui-design           | skill | local
 database-management | skill | local
 concurrency-design  | skill | local
+web-design-expert   | skill    | local
+python-expert       | skill    | local
+cpp-expert          | skill    | local
+c-expert            | skill    | local
 python            | software | system
 git               | software | system
 ```
@@ -26,13 +30,18 @@ git               | software | system
 | concurrency-design | 并发/内存模型/锁与无锁/取消安全专项 | 分支分析命中并发专项时 |
 | python | 脚本运行时与测试执行器 | 脚本构建 / 构建测试 |
 | git | 功能分支→dev→main 版本流 | 每步收尾（见 git 工作流约束） |
+| web-design-expert | Web 视觉/交互/响应式/无障碍专项指导 | 经验查询 / 需求确认·命中该语言或方向任务时 |
+| python-expert | Python 语言与生态专项指导 | 经验查询 / 需求确认·命中该语言或方向任务时 |
+| cpp-expert | C++ 语言/内存/模板/并发专项指导 | 经验查询 / 需求确认·命中该语言或方向任务时 |
+| c-expert | C 语言/指针/内存/可移植性专项指导 | 经验查询 / 需求确认·命中该语言或方向任务时 |
 
 ## 规则
 
 1. 依赖缺失时**降级不得静默**：记 process_chain interrupt 并向用户报告缺项，禁止伪造能力。
 2. 禁止把依赖技能正文复制进本技能目录（薄技能原则）；只允许引用其名称与调用方式。
 3. 新增/删除依赖须走 update 审批流并记 CHANGELOG。
-4. 专项技能（ui-design / database-management / concurrency-design）只传「意图+参数」，
+4. 专项技能（ui-design / database-management / concurrency-design / web-design-expert /
+   python-expert / cpp-expert / c-expert）只传「意图+参数」，
    由对方在其目录内独立执行；索引见 [references](../references/references.md)。
 
 - 返回 [SKILL.md](../SKILL.md) · [浏览器学习约束](../resistance/浏览器学习约束/浏览器学习约束.md)
