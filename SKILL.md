@@ -1,5 +1,6 @@
 ---
 name: general-programming
+version: 0.1.0
 description: >
   通用编程技能：接收编程任务→澄清需求→回忆经验→规划大纲→分析分支/语言→写代码→构建测试→审查→交付；
   薄技能（能力经 dependence/ 声明），遇不明处强制派发 file_ops 联网学习并沉淀知识链。
