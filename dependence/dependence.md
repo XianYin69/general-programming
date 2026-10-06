@@ -1,7 +1,6 @@
 # dependence（依赖声明）
 
-本技能**不内嵌**其他技能内容；能力经声明依赖获得。每行一条 `名称 | 类型 | 来源`，
-类型为 skill|software|repo。SMS 安装时对本目录条目与本体做同样检查与净化。
+本技能**不内嵌**其他技能内容；能力经声明依赖获得。每行一条 `名称 | 类型 | 来源`，类型为 skill|software|repo。SMS 安装时对本目录条目与本体做同样检查与净化。
 
 ```
 file_ops          | skill    | local:skill_manage_system
@@ -14,6 +13,8 @@ web-design-expert   | skill    | local
 python-expert       | skill    | local
 cpp-expert          | skill    | local
 c-expert            | skill    | local
+interface-design-expert | skill | local
+qt-qtquick-expert   | skill    | local
 python            | software | system
 git               | software | system
 ```
@@ -34,6 +35,8 @@ git               | software | system
 | python-expert | Python 语言与生态专项指导 | 经验查询 / 需求确认·命中该语言或方向任务时 |
 | cpp-expert | C++ 语言/内存/模板/并发专项指导 | 经验查询 / 需求确认·命中该语言或方向任务时 |
 | c-expert | C 语言/指针/内存/可移植性专项指导 | 经验查询 / 需求确认·命中该语言或方向任务时 |
+| interface-design-expert | 接口/契约设计专项指导 | 经验查询 / 需求确认·命中该语言或方向任务时 |
+| qt-qtquick-expert | Qt/Qt Quick 框架专项指导 | 经验查询 / 需求确认·命中该语言或方向任务时 |
 
 ## 规则
 
@@ -41,7 +44,7 @@ git               | software | system
 2. 禁止把依赖技能正文复制进本技能目录（薄技能原则）；只允许引用其名称与调用方式。
 3. 新增/删除依赖须走 update 审批流并记 CHANGELOG。
 4. 专项技能（ui-design / database-management / concurrency-design / web-design-expert /
-   python-expert / cpp-expert / c-expert）只传「意图+参数」，
-   由对方在其目录内独立执行；索引见 [references](../references/references.md)。
+   python-expert / cpp-expert / c-expert / interface-design-expert / qt-qtquick-expert）
+   只传「意图+参数」，由对方在其目录内独立执行；索引见 [references](../references/references.md)。
 
 - 返回 [SKILL.md](../SKILL.md) · [浏览器学习约束](../resistance/浏览器学习约束/浏览器学习约束.md)

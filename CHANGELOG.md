@@ -26,3 +26,13 @@
 - 规则：建仓/推送前先判定可见性，判定不了时询问用户，不得擅自设为 PUBLIC。
 - 违规后果：违规/涉密仓库设为 PUBLIC → 侵权与泄密扩散，不可撤回。
 - 同步：SKILL.md 红线摘要与 `branch/流程/收尾/收尾.md` 各加一句可见性判定。
+
+## 0.1.3 — 注册接口设计与 Qt 专家技能
+
+- 新增：dependence 声明 `interface-design-expert`（接口/契约设计专项指导）与 `qt-qtquick-expert`
+  （Qt/Qt Quick 框架专项指导）两个专项薄技能，触发节点＝经验查询 / 需求确认·命中该方向任务时。
+- 新增：`dependence/deps.json` 两条 skill 条目（source_url `local://…`·license MIT·version 0.1.0·
+  source_url_status verified），deps_check 缺失 = 0。
+- 新增：references「专项技能索引」两行，入口指向各技能 `references/知识树/知识树.md`（已实测存在·悬空链接 0）。
+- 规则：薄技能原则不变——只引用名称与入口，不内嵌他技能正文；派发只传「意图+参数」。
+- 排版：dependence.md / references.md 合并个别折行以满足 .md ≤50 行红线（内容无删减）。
