@@ -21,7 +21,8 @@ metadata:
 4. **惩罚熔断**：重试达 10 次即熔断，强制回退或求助用户。
 5. **垃圾回收**：tmp 收尾后释放到目标 skill 并删除；未指定目录时固定路径沙盒作业。
 6. **薄技能**：本体不内嵌他技能内容，能力经 [dependence/](dependence/dependence.md) 声明；UI/数据库/并发专项经其索引派发。
-   Web/Python/C++/C 专家指导技能（web-design-expert / python-expert / cpp-expert / c-expert）同经该索引派发，只传意图+参数。
+   Web/Python/C++/C/接口设计/Qt 与 Qt Quick 专家指导技能（web-design-expert / python-expert /
+   cpp-expert / c-expert / interface-design-expert / qt-qtquick-expert）同经该索引派发，只传意图+参数。
 
 ## 执行路径
 
