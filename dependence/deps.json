@@ -101,6 +101,26 @@
       "source_url_status": "verified"
     },
     {
+      "name": "interface-design-expert",
+      "type": "skill",
+      "source_url": "local://interface-design-expert",
+      "license": "MIT",
+      "version": "0.1.0",
+      "install": "sms:install interface-design-expert",
+      "checked_at": "2026-10-07T02:13",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "qt-qtquick-expert",
+      "type": "skill",
+      "source_url": "local://qt-qtquick-expert",
+      "license": "MIT",
+      "version": "0.1.0",
+      "install": "sms:install qt-qtquick-expert",
+      "checked_at": "2026-10-07T02:13",
+      "source_url_status": "verified"
+    },
+    {
       "name": "python",
       "type": "software",
       "source_url": "https://github.com/python/cpython",

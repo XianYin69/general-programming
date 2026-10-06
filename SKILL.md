@@ -1,5 +1,6 @@
 ---
 name: general-programming
+version: 0.1.0
 description: >
   通用编程技能：接收编程任务→澄清需求→回忆经验→规划大纲→分析分支/语言→写代码→构建测试→审查→交付；
   薄技能（能力经 dependence/ 声明），遇不明处强制派发 file_ops 联网学习并沉淀知识链。
@@ -37,10 +38,10 @@ sandbox / deps_check / run_tests / lint_check / browser_learn / scaffold_project
 ## 红线
 
 - 不得跳过初始化（含 MIT `LICENSE`，已有不覆盖）；不得静默写盘（默认 `--dry-run`）；不得删除 resistance/ 约束。
-- 悬空链接必须为 0；所有 .md / 脚本 ≤ 50 行；缓存文件不得写入 skill 目录（落用户缓存目录）。
+- 悬空链接必须为 0；所有 .md ≤ 50 行（50 行红线只约束 markdown 文本；脚本 .py/.ps1/.sh/.cmd 不限行数，但仍禁裸 except、print 调试残留、>100 字符长行、超长函数）；缓存文件不得写入 skill 目录（落用户缓存目录）。
 - 文件夹名=流程名；脚本使用英文名称；SKILL.md 必含 YAML frontmatter；agent/ 四格式提示词一句话。
 - 遇不明必派 file_ops 联网学习（见 [浏览器学习约束](resistance/浏览器学习约束/浏览器学习约束.md)），禁止凭记忆臆造 API。
-- Git 工作流：每步功能分支提交→审核通过合 dev→整体审查通过 dev 合 main 并推送（推送前须用户确认）。
+- Git 工作流：每步功能分支提交→审核通过合 dev→整体审查通过 dev 合 main 并推送（推送前须用户确认；疑似违规或涉密仓库须 PRIVATE，见 [git工作流约束](resistance/git工作流约束/git工作流约束.md)第 11 条）。
 
 ## 详细流程
 
