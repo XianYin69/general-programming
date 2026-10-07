@@ -36,3 +36,12 @@
 - 新增：references「专项技能索引」两行，入口指向各技能 `references/知识树/知识树.md`（已实测存在·悬空链接 0）。
 - 规则：薄技能原则不变——只引用名称与入口，不内嵌他技能正文；派发只传「意图+参数」。
 - 排版：dependence.md / references.md 合并个别折行以满足 .md ≤50 行红线（内容无删减）。
+
+## 0.1.4 — 注册平台三专家技能
+
+- 新增：dependence 声明 windows-app-dev-expert / linux-dev-expert / web-app-dev-expert 三个专项薄技能，承担能力分别＝Windows 桌面/安装包/服务专项指导、Linux 构建打包/systemd 服务化专项指导、Web 前后端契约/部署安全专项指导，触发节点＝经验查询 / 需求确认·命中该语言或方向任务时。
+- 新增：`dependence/deps.json` 三条 skill 条目（type=skill·source_url `local://<name>`·license MIT·version local·source_url_status verified·checked_at 当轮时刻），插在 qt-qtquick-expert 之后、python 软件条目之前，deps_check 缺失 = 0。
+- 新增：references「专项技能索引」三行，知识库入口按实测存在路径给：windows→`references/references.md`，linux 与 web→`references/知识树.md`（三者落盘结构不同，均实测存在，不写不存在路径以免悬空链接）。
+- 同步：SKILL.md 工作原则 6 的薄技能枚举补齐这三项，使 dependence.md / deps.json / references.md / SKILL.md 四处口径一致。
+- 规则：薄技能原则不变——只引用名称与入口，严禁把三技能正文复制进 general-programming；派发只传「意图+参数」。
+- 排版：dependence.md 合并首段折行、删「## 用途映射」与「| 触发节点 |」分隔行间空行并合并两处表格行折行；references.md 合并导语、缺口条目与各索引行折行、删表前一空行；SKILL.md 原则 6 由两行折行改三行折行——三文件吸收 3 行新增后仍 ≤50 行、语义无删减；本文件历史条目排版未动，仅追加本节。
