@@ -1,8 +1,7 @@
 # references（知识库索引）
 
 本目录存**摘要与出处**，不存受版权保护的正文。两类来源标注：
-`[联网]` = knowledge_fetch/convert 抓取可溯；`[本地]` = 模型既有常识，未经联网确证（本环境
-Wikipedia 不可达，已按知识库构建兜底降级并如实标注，禁止当作已验证事实引用）。
+`[联网]` = knowledge_fetch/convert 抓取可溯；`[本地]` = 模型既有常识，未经联网确证（本环境 Wikipedia 不可达，已按知识库构建兜底降级并如实标注，禁止当作已验证事实引用）。
 
 ## 编程侧
 
@@ -32,6 +31,8 @@ Wikipedia 不可达，已按知识库构建兜底降级并如实标注，禁止�
 | Python | python-expert | [知识树](../../python-expert/references/知识树/知识树.md) | Python 脚本与服务任务 |
 | C++ | cpp-expert | [references](../../cpp-expert/references/references.md) | C++ 项目任务 |
 | C | c-expert | [references](../../c-expert/references/references.md) | C 语言与系统底层任务 |
+| 接口设计 | interface-design-expert | [知识树](../../interface-design-expert/references/知识树/知识树.md) | 接口/API/契约设计任务 |
+| Qt/Qt Quick | qt-qtquick-expert | [知识树](../../qt-qtquick-expert/references/知识树/知识树.md) | Qt/Qt Quick/QML 桌面与嵌入式 UI 任务 |
 
 派发方式：只传「意图+参数」，专项技能在其目录内按同流程独立执行并收口返回（薄技能规则 4）。
 
