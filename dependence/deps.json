@@ -121,6 +121,36 @@
       "source_url_status": "verified"
     },
     {
+      "name": "windows-app-dev-expert",
+      "type": "skill",
+      "source_url": "local://windows-app-dev-expert",
+      "license": "MIT",
+      "version": "local",
+      "install": "sms:install windows-app-dev-expert",
+      "checked_at": "2026-10-07T10:15",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "linux-dev-expert",
+      "type": "skill",
+      "source_url": "local://linux-dev-expert",
+      "license": "MIT",
+      "version": "local",
+      "install": "sms:install linux-dev-expert",
+      "checked_at": "2026-10-07T10:15",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "web-app-dev-expert",
+      "type": "skill",
+      "source_url": "local://web-app-dev-expert",
+      "license": "MIT",
+      "version": "local",
+      "install": "sms:install web-app-dev-expert",
+      "checked_at": "2026-10-07T10:15",
+      "source_url_status": "verified"
+    },
+    {
       "name": "python",
       "type": "software",
       "source_url": "https://github.com/python/cpython",
